@@ -59,7 +59,6 @@ def main():
 
     # Декодирование полученного сигнала
     decoded_bits = decode_signal(received_signal, walsh_codes)
-    print("decoded_bits:", decoded_bits)
 
     # Визуализация закодированных сигналов для каждой станции
     time = np.arange(encoded_signals[0].shape[0])
